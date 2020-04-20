@@ -1,14 +1,255 @@
-<!-- in chrome go to Tools, developer, developer tools (Alt Command I) -->
-<!-- to see on github, go to site, settings, github pages, source, master branch. go back to github pages. -->
-<!DOCTYPE html> <!-- writing in html 5 -->
-<html>
-<head>
-	<title>this is what the page will be called</title>
-</head>
-<body> <!-- highlight and press tab (makes it easier to read) -->
-	<h1>Heading <i>element</i></h1>
-	<p>Paragraph <b>element</b></p>
-	<a href="http://google.com" target="_blank" title="message when they hover over link">Click me I'm a link (anchor element)</a>
-	<img src="img/banner1-1024x409.jpg">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Nichols Photo Lab</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Nichols Photo Lab</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active"> <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a> </li>
+          <li class="nav-item"> <a class="nav-link" href="#">Link</a> </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> Dropdown </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+              <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a> 
+            </div>
+          </li>
+          <li class="nav-item"> <a class="nav-link disabled" href="#">Disabled</a> </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+    <header>
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <h1 class="text-center">At Nichols Photo Lab, Inc.,</h1>
+              <p class="text-center">our goal is to preserve your precious memories with the highest care and quality.<br><img src="http://nicholsphotolab.com/wp-content/uploads/sites/4370/2017/03/banner1.jpg" height="316" width="1000" alt="Camera &amp; Tripod" class="slider-11 slide-12" scale="0" draggable="false"></img></p>
+              <p>&nbsp;</p>
+              <p class="text-center"><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a> </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <section>
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12 mb-4 mt-2 text-center">
+            <h2>ABOUT US</h2>
+          </div>
+        </div>
+      </div>
+      <div class="container ">
+        <div class="row">
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+            <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="images/paulk.png" data-holder-rendered="true">
+            <h3>Paul K</h3>
+            <p>President</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+            <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="images/paulb.png" data-holder-rendered="true">
+            <h3>Paul B</h3>
+            <p>General/IT Manager</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+            <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="images/robyn.png" data-holder-rendered="true">
+            <h3>Robyn</h3>
+            <p>Art Supervisor</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+            <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="images/amber.png" data-holder-rendered="true">
+            <h3>Amber</h3>
+            <p>Office Manager</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+            <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="images/debbie.png" data-holder-rendered="true">
+            <h3>Debbie</h3>
+            <p>Color Specialist</p>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 text-center">
+            <img class="rounded-circle" alt="140x140" style="width: 140px; height: 140px;" src="images/hg.png" data-holder-rendered="true">
+            <h3>HG</h3>
+            <p>Scan Specialist</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12 mt-4 mb-2 text-center">
+            <h2>TESTIMONIALS</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-6">
+            <blockquote class="blockquote">
+              <p class="mb-0">I have been using Nichols for years. Great quality and customer service!</p>
+              <small class="blockquote-footer">Robyn Charlesworth <cite title="Source Title">B & B Photography</cite></small> 
+            </blockquote>
+          </div>
+          <div class="col-sm-6 col-lg-6">
+            <blockquote class="blockquote">
+              <p class="mb-0">Beautifully printed items and wonderful customer service.</p>
+              <small class="blockquote-footer">M'Recia Seegmiller <cite title="Source Title">Utah Infertility Resource Center</cite></small> 
+            </blockquote>
+          </div>
+          <div class="col-sm-6 col-lg-6">
+            <blockquote class="blockquote">
+              <p class="mb-0">Quality and service cannot be beat!.</p>
+              <small class="blockquote-footer">Victoria Lynn<cite title="Source Title">Main Street Photography</cite></small> 
+            </blockquote>
+          </div>
+          <div class="col-sm-6 col-lg-6">
+            <blockquote class="blockquote">
+              <p class="mb-0">We are very fortunate to have the best photo lab anywhere, right here in Utah. As a professional photographer, Nichols Photo Lab has saved me in desperate situations countless times!</p>
+              <small class="blockquote-footer">Kent Shelton <cite title="Source Title">Shelton Photography</cite></small> 
+            </blockquote>
+          </div>
+        </div>
+      </div>
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="text-center col-md-8 col-12 mx-auto">
+              <p class="lead">Pro Photographers</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-4 col-auto mx-auto"> <a class="btn btn-block btn-lg btn-success" href="#" title="">Sign up now!</a> </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 mb-2 text-center">
+            <h2>OUR SERVICES</h2>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-6 col-lg-4">
+            <h3>Enlargements</h3>
+            <p> Printed on the finest paper Choose from Luster, Satin, Glossy, Metallic, Silver Metallic, Fine Art, Sticker Material & Canvas. Standard and Custom sizes up to 60 inches wide. </p>
+            <p><a class="btn btn-link" href="http://www.adobe.com">View details »</a></p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h3>Metal Prints</h3>
+            <p> Printed on HD Aluminum Panels Ultimate image clarity and vibrancy. Images are infused into specially coated aluminum panels. to provide the more durable, longest lasting print medium. Standard & custom sizes up to 40x60. </p>
+            <p><a class="btn btn-link" href="http://www.adobe.com">View details »</a></p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h3>Film & Print Scanning</h3>
+            <p> Preserve your old prints & film by digitizing them. We can scan most film type & print sizes so that you can share and preserve them for future generations to enjoy.</p>
+            <p><a class="btn btn-link" href="http://www.adobe.com">View details »</a></p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h3>Press Products</h3>Holiday Cards, Wedding Announcements, Birthday Cards, Business Cards, Flyer's, Brochures, Booklets. Cardstock is available in several thicknesses & textures. Envelopes are included with cards. Return address printing available.</p>
+            <p><a class="btn btn-link" href="http://www.adobe.com">View details »</a></p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h3>Canvas Gallery Wraps</h3>
+            <p> Canvas wrapped around 1 1/2 inch frame. Gallery wraps look great. We use the best canvas and wood frame so that your print lasts longer. They are easy to hang. Standard & Custom Sizes up to 50 inches wide.</p>
+            <p><a class="btn btn-link" href="http://www.adobe.com">View details »</a></p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h3>Visa & Passport Photos</h3>
+            <p> All Countries available. We take the picture, then print to the latest size requirement for any country. Quick & Easy.</p>
+            <p><a class="btn btn-link" href="http://www.adobe.com">View details »</a></p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h3>Film Developing</h3>
+            <p> We still develop film. C41 (color negative) E6 (Slide), & Black & White film. Also, Scan & Print Proofs. Long live film!</p>
+            <p><a class="btn btn-link" href="http://www.adobe.com">View details »</a></p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h3>Digital Retouching</h3>
+            <p> We can make your image look great! Retouching faces, removing & inserting objects. Restore old & damaged prints and image enhancements. Adding the final touches to your images</p>
+            <p><a class="btn btn-link" href="http://www.adobe.com">View details »</a></p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h3>Finishing Touches</h3>
+            <p> Textures, Sprays, Mounting, Picture framing & Canvas Bonding. Make your print extra special by adding a professional look that makes your print look extraordinary. Picture frames available. Come see our great selection</p>
+            <p><a class="btn btn-link" href="http://www.adobe.com">View details »</a></p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h3>Novelty & Gift Products</h3>
+            <p> Give a gift they can enjoy for ever. Mugs, mouse pad, key chains, frames, dog tags, photo balls, puzzles, glass, acrylic prints, magnets, tee shirts, trading cards, water bottle, and more.</p>
+            <p><a class="btn btn-link" href="http://www.adobe.com">View details »</a></p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h3>School & Sports Event Printing</h3>
+            <p> We have everything necessary to make your job easy. Printing large events has never been easier with our software and expert lab personnel</p>
+            <p><a class="btn btn-link" href="http://www.adobe.com">View details »</a></p>
+          </div>
+          <div class="col-sm-6 col-lg-4">
+            <h3>Albums</h3>
+            <p> Press Printed or Photographic. We can produce flush mounted albums printed on photographic paper, or press printed albums printed on Cardstock or thin pulp paper.</p>
+            <p><a class="btn btn-link" href="http://www.adobe.com">View details »</a></p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-8 mx-auto">
+          <div class="jumbotron">
+            <div class="row text-center">
+              <div class="text-center col-12">
+                <h2>Request a free quote</h2>
+              </div>
+              <div class="text-center col-12">
+                <!-- CONTACT FORM https://github.com/jonmbake/bootstrap3-contact-form -->
+                <form id="feedbackForm" class="text-center">
+                  <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Name" aria-describedby="nameHelp">
+                    <span id="nameHelp" class="form-text text-muted" style="display: none;">Please enter your name.</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="email">E-Mail</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Email Address" aria-describedby="emailHelp">
+                    <span id="emailHelp" class="form-text text-muted" style="display: none;">Please enter a valid e-mail address.</span>
+                  </div>
+                  <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea rows="10" cols="100" class="form-control" id="message" name="message" placeholder="Message" aria-describedby="messageHelp"></textarea>
+                    <span id="messageHelp" class="form-text text-muted" style="display: none;">Please enter a message.</span>
+                  </div>
+                  <button type="submit" id="feedbackSubmit" class="btn btn-primary btn-lg"> Send</button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <p>Copyright © Nichols Photo Lab, Inc. All rights reserved.</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
+    <script src="js/jquery-3.4.1.min.js"></script> 
+    <!-- Include all compiled plugins (below), or include individual files as needed --> 
+    <script src="js/popper.min.js"></script> 
+    <script src="js/bootstrap-4.4.1.js"></script>
+  </body>
+</html>
+
 </body>
 </html>
